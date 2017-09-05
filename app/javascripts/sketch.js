@@ -59,5 +59,5 @@ function mousePressed() {
 function onMouseHold() {
     tX += (mouseX - x1) * 0.05;
     tY += (mouseY - y1) * 0.05;
-    cursor(CROSS);
+    cursor(MOVE);
 }
