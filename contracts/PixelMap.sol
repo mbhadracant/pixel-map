@@ -22,8 +22,8 @@ contract PixelMap {
     return index;
   }
 
-  function getPixel(uint index) public returns (uint r, uint g, uint b) {
-    return (pixels[index].r, pixels[index].g, pixels[index].b);
+  function getPixel(uint index) public returns (uint r, uint g, uint b, address owner) {
+    return (pixels[index].r, pixels[index].g, pixels[index].b, pixels[index].owner);
   }
 
 }
