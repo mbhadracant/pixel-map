@@ -36,6 +36,12 @@ function Pixel(x, y, i, j, index, address, col) {
         $(".g").html("G: " + this.col.levels[1]);
         $(".b").html("B: " + this.col.levels[2]);
       }
+      if(this.address == '0x0000000000000000000000000000000000000000') {
+        $(".owner").html("Owner: None");
+      } else {
+        $(".owner").html("Owner: " + this.address);
+      }
+
       this.hover = true;
     } else {
       this.hover = false;

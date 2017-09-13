@@ -31,7 +31,7 @@ body {
 
 .pixel-container {
   height:200px;
-  width:200px;
+  width:300px;
   border:2px solid rgb(220,220,220);
   box-shadow: 0px 0px 8px 10px rgb(250,250,250);
   text-align: center;
@@ -40,7 +40,7 @@ body {
 .pixel-set {
   text-align: center;
   height:200px;
-  width:200px;
+  width:300px;
   border:2px solid rgb(220,220,220);
   box-shadow: 0px 0px 8px 10px rgb(250,250,250);
   display:none;
@@ -52,19 +52,19 @@ body {
 
 .color-palette {
   display: -webkit-flex;
-  width:200px;
+  width:300px;
   height:30px;
 }
 .color-palette > div {
-  height:15px;
-  width:15px;
+  height:25px;
+  width:25px;
   border:1px solid black;
   margin:3px;
 }
 
 .color-palette > div:hover {
-  height:17px;
-  width:17px;
+  height:30px;
+  width:30px;
 }
 
 .red {
@@ -104,6 +104,7 @@ body {
 }
 
 .set-pixel-btn {
+  margin-top:30px;
     border: none;
     color: white;
     padding: 4px 12px;

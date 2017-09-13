@@ -34,7 +34,6 @@ var App = {
       var g = data[1].toNumber();
       var b = data[2].toNumber();
       var address = data[3];
-
       var pixel = new Pixel((i * pixelSize) + pixelSize/2, (j * pixelSize) + pixelSize/2, i, j, index, address, color(r,g,b));
       pixels.push(pixel);
     });
